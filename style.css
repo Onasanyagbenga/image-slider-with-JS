@@ -78,6 +78,7 @@ img{
     body{
         padding: 0 2rem;
         background-color: #fff;
+        overflow: hidden;
     }
     .image-container{
         margin-top: 150px;
