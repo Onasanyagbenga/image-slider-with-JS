@@ -66,3 +66,23 @@ img{
 .slider-btn .dot:hover,.slider-btn .active{
     background-color: black;
 }
+/*Mobile responsiveness*/
+@media (max-width: 787px){
+    .slider-btn{
+        width: 100%;
+    }
+    .slider-btn .dot{
+        width: 12px;
+        height: 12px;
+    }
+    body{
+        padding: 0 2rem;
+        background-color: #fff;
+    }
+    .image-container{
+        margin-top: 150px;
+    }
+    .slider-btn{
+        margin-top: 0.5rem;
+    }
+}
